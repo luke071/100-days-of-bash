@@ -36,4 +36,5 @@ echo -e "\nDisk space usage:"
 
 \n → new line
 
+[See script](main.sh)
 [← Main Page](../README.md)

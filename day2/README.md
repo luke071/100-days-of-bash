@@ -25,3 +25,6 @@ echo -e "\e[47mWhite background\e[0m"
 echo -e "\e[40mBlack background\e[0m"
 ```
 ![background](/assets/day2-2.png)  
+
+[See script](main.sh)
+[← Main Page](../README.md)

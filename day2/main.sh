@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo -e "\e[46m==== SYSTEM INFORMATION ====\e[0m"
 
 CMD='hostname'
