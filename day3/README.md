@@ -25,5 +25,5 @@ if [ condition ]; then
     command
 fi
 ```
-
+[Bash Test Operators Table](../assets/bash_test_operators.md)  
 [← Main Page](../README.md)
