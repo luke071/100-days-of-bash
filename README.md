@@ -1,6 +1,7 @@
 # 100 Days of Bash
 The course takes you from the solid foundation required for the EX200 exam to an intermediate level that allows you to create stable, modular, and practical scripts used in everyday Linux system administration.  
 ## 1. Module 1: Common Foundations (level EX200)
+### Module Objective [ex200-bash-scripts](https://github.com/luke071/ex200-bash-scripts)
 - Bash Basics
 - Loops, Conditions, Arguments
 - File Operations
