@@ -18,3 +18,4 @@ The course takes you from the solid foundation required for the EX200 exam to an
 [Day 5](/day5/README.md)  
 [Day 6](/day6/README.md)  
 [Day 7](/day7/README.md)  
+[Day 8](/day8/README.md)
