@@ -1,0 +1,6 @@
+2026-08-19 18:20:01 ssh status=FAILED user=jan ip=192.168.1.10
+2026-08-19 18:21:14 ssh status=FAILED user=anna ip=192.168.1.11
+2026-08-19 18:22:37 ssh status=SUCCESS user=jan ip=192.168.1.10
+2026-08-19 18:25:42 ssh status=FAILED user=jan ip=192.168.1.10
+2026-08-19 18:27:03 ssh status=FAILED user=piotr ip=192.168.1.12
+2026-08-19 18:29:15 ssh status=FAILED user=anna ip=192.168.1.11
