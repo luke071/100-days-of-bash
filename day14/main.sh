@@ -1,4 +1,5 @@
-```bash
+#!/bin/bash
+
 cut -d',' -f1 file.csv
 cut -d',' -f1,3 file.csv
 cut -d',' -f1-4 file.csv
@@ -12,4 +13,3 @@ cut --complement -d',' -f2 file.csv
 cut -d' ' -f2-4 file.txt
 cut -d';' -f1 file.txt
 cut -s -d',' -f2 file.csv
-```

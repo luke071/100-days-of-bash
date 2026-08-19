@@ -1,0 +1,8 @@
+Error: something failed
+warning: low memory
+INFO: all good
+fatal ERROR occurred
+fail to start
+this line is clean
+ERROR error 
+10.0.0.1

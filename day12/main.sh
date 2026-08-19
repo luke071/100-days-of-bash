@@ -1,3 +1,5 @@
+#!/bin/bash
+
 awk '{print $1}' file.txt
 awk '{print $1, $3}' file.txt
 awk -F: '{print $1}' /etc/passwd

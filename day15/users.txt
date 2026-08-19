@@ -1,0 +1,4 @@
+john@example.com
+anna.kowalska@gmail.pl
+invalid-email
+user123@mail.org
