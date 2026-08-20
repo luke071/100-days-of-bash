@@ -1,4 +1,4 @@
-# Day 12 Awk
+# Day 12 [ ] vs [[ ]]
  [See script](main.sh)  
- [Arithmetic Operators](../assets/awk-common-combinations.md)  
+ [Brackets Comparison](../assets/bash-brackets-comparison.md)  
  [← Main Page](../README.md)

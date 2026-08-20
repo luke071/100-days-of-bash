@@ -1,4 +1,4 @@
-# Day 3 - Guess the number
+# Day 3 - Guess the Number
 Write a script that randomly selects a number from 1 to 10 and checks whether the user guessed it correctly.
 
 [See script](main.sh)

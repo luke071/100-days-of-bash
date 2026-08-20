@@ -1,4 +1,4 @@
-# Day 2 - Colorful data
+# Day 2 - Colorful Data
 Change the text and background colors in the script from day 1. Use the ANSI system colors below.
 
 Basic text colors:

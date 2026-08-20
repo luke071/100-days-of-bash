@@ -1,4 +1,4 @@
-# Day 8 - Pipelines and redirects
+# Day 8 - Pipelines and Redirects
 
 Write a bash script that uses pipes and redirections in a practical way.
 

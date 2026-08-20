@@ -1,4 +1,4 @@
-# Day 6 - Searching for configuration files
+# Day 6 - Searching for Configuration Files
 Write a script that loops through all the .conf files in the /etc directory and prints their names.
 
 [See script](main.sh)  
