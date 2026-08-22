@@ -1,32 +1,7 @@
 #!/bin/bash
 
-echo "Select system: rhel / debian"
-read system
+users=$(cat /etc/passwd)
 
-case "$system" in
-    rhel)
-        cmd="useradd"
-        echo "RHEL selected - I'm using useradd"
-        ;;
-    debian)
-        cmd="adduser --disabled-password --gecos ''"
-        echo "Debian selected - I'm using adduser"
-        ;;
-    *)
-        echo "Unknown system. Select rhel or debian."
-        exit 1
-        ;;
-esac
-
-if [[ ! -f users.txt ]]; then
-    echo "Missing users.txt file !"
-    exit 1
+if grep -q "^root:" /etc/passwd; then
+    echo "root exists"
 fi
-
-echo "Adding users from users.txt file"
-
-while read user; do
-    [[ -z "$user" ]] && continue
-    $cmd "$user"
-    echo "Added: $user"
-done < users.txt

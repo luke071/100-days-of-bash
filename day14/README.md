@@ -1,4 +1,4 @@
-# Day 14 Cut
+# Day 9 - Bash Test Operators
  [See script](main.sh)  
- [cut](../assets/cut-common-combinations.md)  
+ [Most Commonly Used Bash Test Operators](../assets/bash-test-operators.md)  
  [← Main Page](../README.md)

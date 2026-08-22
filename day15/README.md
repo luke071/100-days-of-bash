@@ -1,4 +1,4 @@
-# Day 15 Grep
+# Day 10 Arithmetic Operators
  [See script](main.sh)  
- [grep](../assets/grep-common-combinations.md)  
+ [Arithmetic Operators](../assets/arithmetic-operators.md)  
  [← Main Page](../README.md)

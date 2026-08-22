@@ -1,22 +1,29 @@
 #!/bin/bash
 
-LOG=/var/log/login.log
-OUT=/root/failed_users.txt
+echo "Enter text:"
+read txt
 
-if [ ! -f "$LOG" ]; then
-    echo "Error: file $LOG does not exist!"
-    exit 1
+echo "Enter a number"
+read num
+
+if [ -z "$txt" ]; then
+    echo "The text is empty (POSIX test)"
+fi
+ 
+if [[ "$num" -gt 10 ]]; then
+    echo "The number is greater than 10 (Bash test)"
+else
+    echo "The number is less than or equal to 10 (Bash test)"
+fi
+ 
+if [[ -n "$txt" && "$num" -gt 0 ]]; then
+    echo "Text and a number greater than 0 were given"
 fi
 
-grep "FAILED" "$LOG" \
-    | sed 's/status=FAILED//' \
-    | awk '{print $3}' \
-    | cut -d"=" -f2 \
-    | sort | uniq -c \
-    > "$OUT"
+if [[ -z "$txt" || "$num" -le 0 ]]; then
+    echo "No text OR number not greater than 0"
+fi
 
-if [ -s "$OUT" ]; then
-    echo "Result saved in $OUT"
-else
-    echo "No failed login attempts."
+if [[ ! -z "$txt" && ! "$num" -eq 0 ]]; then
+    echo "Text is not empty AND number is not zero"
 fi

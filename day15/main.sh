@@ -1,17 +1,27 @@
 #!/bin/bash
 
-grep -i "error" log.txt
-grep -v "error" log.txt
-grep -Ei "error|warning" log.txt
-grep -in "error" log.txt
-grep -iv "error" log.txt
-grep -w "fail" log.txt
-grep -n "error" log.txt
-grep -c "warning" log.txt
-grep -E "^[0-9]" file.txt
-grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" log.txt
-grep -qx "OK" status.txt
-grep -iq "done" output.txt
-grep 'gmail' users.txt
-grep -v '@' users.txt
-grep '\.com$' users.txt
+echo "Enter a number:"
+read x
+
+echo "Enter the second number:"
+read y
+
+sum=$(( x + y ))
+mod=$(( x % y ))
+
+echo "Sum of numbers: $sum"
+echo "Modulo (x % y): $mod"
+
+(( x++ ))
+echo "After incrementing x (x++): $x"
+
+(( y += 5 ))
+echo "After y += 5: $y"
+
+if [ "$x" -eq "$y" ]; then
+    echo "The numbers are equal"
+elif [ "$x" -gt "$y" ]; then
+    echo "The first number is larger"
+else
+    echo "The second number is larger"
+fi

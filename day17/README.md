@@ -1,3 +1,4 @@
-# Day 17 Failed Login Detection Script
+# Day 12 [ ] vs [[ ]]
  [See script](main.sh)  
+ [Brackets Comparison](../assets/bash-brackets-comparison.md)  
  [← Main Page](../README.md)
