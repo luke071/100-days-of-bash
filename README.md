@@ -38,4 +38,4 @@ The course takes you from the solid foundation required for the EX200 exam to an
 [Day 20 Grep](/day20/README.md)  
 [Day 21 Sed](/day21/README.md)  
 [Day 22 Failed Login Detection Script](/day22/README.md)  
-[Day 23 Practical Task EX200](/day23/README.md)  
+[Day 23 EX200 Practical Scripting Tasks](/day23/README.md)  
