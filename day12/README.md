@@ -1,4 +1,4 @@
-# Day 7 - Hard vs. Symbolic Links
+# Day 12 - Hard vs. Symbolic Links
 
 Create a Bash shell script showing the difference between a hard link and a symbolic link.  
 Script assumptions:

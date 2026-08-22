@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name="John"
+name="Luke"
 file="/etc/passwd"
 
 echo "$name"
