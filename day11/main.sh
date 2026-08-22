@@ -1,7 +1,15 @@
 #!/bin/bash
 
-users=$(cat /etc/passwd)
+# Command substitution: store the command output in the variable
+status=$(systemctl is-active sshd)
 
-if grep -q "^root:" /etc/passwd; then
-    echo "root exists"
+echo "Service status: $status"
+
+# if checks the exit status of the command:
+# 0 = success (sshd is running)
+# non-zero = failure (sshd is not running)
+if systemctl is-active --quiet sshd; then
+    echo "sshd is running"
+else
+    echo "sshd is not running"
 fi
