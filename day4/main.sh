@@ -4,7 +4,7 @@ echo "Enter a file name:"
 read file
 
 if [ -f "$file" ]; then
-    echo "The file exists"
+    echo "The file exists in the current folder"
 else
-    echo "The file does not exist"
+    echo "The file does not exist in the current folder"
 fi
