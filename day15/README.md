@@ -1,5 +1,5 @@
 # Day 15 Arithmetic Operators
-Napisz skrypt Bash, który pobierze od użytkownika dwie liczby, obliczy ich sumę i modulo, a następnie zwiększy pierwszą liczbę o 1 i drugą o 5. Na końcu porówna obie liczby i wyświetli informację, która z nich jest większa lub czy są równe.
+Write a Bash script that takes two numbers from the user, calculates their sum and modulo, and then increments the first number by 1 and the second by 5. Finally, it compares the two numbers and displays which one is larger or whether they are equal.  
  [See script](main.sh)  
  [Arithmetic Operators](../assets/arithmetic-operators.md)  
  [← Main Page](../README.md)
