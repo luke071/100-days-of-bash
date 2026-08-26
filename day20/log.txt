@@ -1,8 +1,10 @@
-Error: something failed
-warning: low memory
-INFO: all good
-fatal ERROR occurred
-fail to start
-this line is clean
-ERROR error 
-10.0.0.1
+2026-08-26 08:00:01 INFO Application started
+2026-08-26 08:01:15 WARNING Low disk space
+2026-08-26 08:02:30 ERROR Database connection failed
+2026-08-26 08:03:45 INFO User logged in
+2026-08-26 08:04:10 error Network connection lost
+2026-08-26 08:05:22 FAIL Backup failed
+2026-08-26 08:06:30 WARNING High CPU usage
+2026-08-26 08:07:15 ERROR 192.168.1.100 Server unavailable
+2026-08-26 08:08:00 INFO Process completed
+2026-08-26 08:09:10 Error 10.0.0.25 Connection refused

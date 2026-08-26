@@ -1,0 +1,11 @@
+alpha foo beta
+foo is here
+this foo should change
+no foo here
+gamma foo delta
+line5 foo
+line6 example
+line7 example
+line8 example
+line9 example
+line10 example

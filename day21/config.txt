@@ -1,0 +1,8 @@
+# Application configuration
+port=8080
+# Database configuration
+host=localhost
+username=admin
+# Debug mode
+debug=true
+timeout=30

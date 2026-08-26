@@ -18,7 +18,7 @@ for Debian – `adduser --disabled-password --gecos ''`.
 Example content of `users.txt`:  
 
 Andrew  
-John
+John  
 Mark
  
 [See script](main.sh)    
