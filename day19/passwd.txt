@@ -1,0 +1,5 @@
+root:x:0:0:root:/root:/bin/bash
+user1:x:1000:1000:User One:/home/user1:/bin/bash
+user2:x:1001:1001:User Two:/home/user2:/bin/bash
+admin:x:1002:1002:Administrator:/home/admin:/bin/zsh
+guest:x:1003:1003:Guest User:/home/guest:/bin/bash

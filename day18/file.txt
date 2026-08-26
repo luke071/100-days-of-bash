@@ -1,0 +1,5 @@
+alpha 10 50
+beta 20 150
+gamma 30 75
+delta 40 200
+epsilon 50 125
