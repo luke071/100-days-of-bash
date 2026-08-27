@@ -1,5 +1,9 @@
 # Day 21 Sed
-Write a script that uses the `sed` command to modify, delete, and display selected lines from text files.
+
+🧠 Remember: SED → reads text → searches for patterns → modifies or removes parts.  
+In other words: SED = “change the text for me.”  
+
+## Write a script that uses the `sed` command to modify, delete, and display selected lines from text files.
 
 Use the following files:
 

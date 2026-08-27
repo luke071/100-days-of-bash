@@ -1,5 +1,9 @@
 # Day 19 Cut
-Write a script that uses the `cut` command to extract specific columns and characters from various text files.
+
+🧠 Remember: CUT → selects parts of text → cuts specific columns or characters → displays the result.  
+In other words: CUT = “cut this out of the text for me.”  
+
+## Write a script that uses the `cut` command to extract specific columns and characters from various text files.
 
 Use the following files:
 

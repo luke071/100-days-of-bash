@@ -1,5 +1,10 @@
 # Day 18 Awk
-Write a script using the `awk` tool to process data contained in several text files.
+
+🧠 Remember: AWK → reads lines → splits them into columns → performs operations.  
+
+In other words: AWK = “process data from text for me.”  
+
+## Write a script using the `awk` tool to process data contained in several text files.
 
 Use the following files:
 

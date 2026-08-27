@@ -1,5 +1,9 @@
 # Day 20 Grep
-Write a script that uses the `grep` command to search for, filter, and count specific information in text files.
+
+🧠 Remember: GREP → searches text → looks for a matching pattern → displays matching lines.  
+In other words: GREP = “find this in the text for me.”  
+
+## Write a script that uses the `grep` command to search for, filter, and count specific information in text files.
 
 Use the following files:
 
