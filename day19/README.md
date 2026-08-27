@@ -1,4 +1,4 @@
-# Day 19 Cut
+# Day 19 ✂️ Cut 
 
 🧠 Remember: CUT → selects parts of text → cuts specific columns or characters → displays the result.  
 In other words: CUT = “cut this out of the text for me.”  

@@ -1,4 +1,4 @@
-# Day 20 Grep
+# Day 20 🔎 Grep 
 
 🧠 Remember: GREP → searches text → looks for a matching pattern → displays matching lines.  
 In other words: GREP = “find this in the text for me.”  

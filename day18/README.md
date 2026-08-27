@@ -1,4 +1,4 @@
-# Day 18 Awk
+# Day 18 ⚙️ Awk 
 
 🧠 Remember: AWK → reads lines → splits them into columns → performs operations.  
 

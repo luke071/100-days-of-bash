@@ -1,4 +1,4 @@
-# Day 21 Sed
+# Day 21 📝 Sed
 
 🧠 Remember: SED → reads text → searches for patterns → modifies or removes parts.  
 In other words: SED = “change the text for me.”  
