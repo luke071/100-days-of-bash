@@ -1,35 +1,20 @@
 #!/bin/bash
 
-echo "Initializing link diagnostics..."
-sleep 1
+FILE="/tmp/testfile"
+HARD="/tmp/hardlink"
+SOFT="/tmp/symlink"
 
-BASE="original.txt"
-HARD="hard.txt"
-SOFT="soft.txt"
+echo "Test file" > "$FILE"
 
-echo "Base file content" > "$BASE"
+ln "$FILE" "$HARD"
+ln -s "$FILE" "$SOFT"
 
-ln "$BASE" "$HARD"
-ln -s "$BASE" "$SOFT"
+ls -li "$FILE" "$HARD" "$SOFT"
 
-echo "checking links..."
-sleep 1
-
+echo
 echo "Hard link:"
-ls -li "$HARD"
-
-echo
-echo "Symbolic link:"
-ls -li "$SOFT"
-
-echo
-echo "removing base file..."
-rm "$BASE"
-
-echo
-echo "Hard link after removing original:"
 cat "$HARD"
 
 echo
-echo "Symbolic link after removing original:"
-cat "$SOFT" 2>/dev/null || echo "symlink: broken"
+echo "Symbolic link:"
+cat "$SOFT"

@@ -1,5 +1,6 @@
 # Day 12 - Hard vs. Symbolic Links
-
+A hard link points directly to the file's data, while a symbolic link points to the file's path. Hard links usually cannot link to directories or filesystems, while symbolic links can. In Bash, links can be created using ln and ln -s.
+## Task
 Create a Bash shell script showing the difference between a hard link and a symbolic link.  
 Script assumptions:
  - creates a base file named original.txt containing any text
