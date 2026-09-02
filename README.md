@@ -1,20 +1,16 @@
 # 100 Days of Bash
-The course takes you from the solid foundation required for the EX200 exam to an intermediate level that allows you to create stable, modular, and practical scripts used in everyday Linux system administration.  
-## Module 1: Common Foundations (level EX200)
-### Module Objective [ex200-bash-scripts](https://github.com/luke071/ex200-bash-scripts)
-- Bash Basics
-- Loops, Conditions, Arguments
-- File Operations
-- Simple Automations
-- Startup Scripts
-- Working with Logs
-## Module 2: Bash Network Automation
-## Module 3: Bash Security Automation
-## Module 4: Wazuh
-## Module 5: Zabbix
-## Module 6: Proxmox
-## Module 7: Docker & Container Security
-## Module 8: Kubernetes Security / CKS
+The course takes you from the Bash scripting skills required at the EX200 exam level to an intermediate level, enabling you to create stable, modular, and practical scripts for everyday Linux system administration.  
+## Module 1: Common Foundations — Level of the EX200 Certification Exam
+
+- Bash Fundamentals
+- Variables, Arguments & Exit Status
+- Conditions, Tests & Arithmetic
+- Files, Directories & Links
+- Pipelines & Redirection
+- Text Processing with grep, cut, awk & sed
+- Functions & Script Structure
+- Log Analysis & Automation
+- Practical EX200-Level Bash Scripting 
 
 [Day 1 Basics of Text Formatting in Bash](/day1/README.md)  
 [Day 2 Colorful Data](/day2/README.md)  
@@ -41,3 +37,14 @@ The course takes you from the solid foundation required for the EX200 exam to an
 [Day 23 Backup](/day23/README.md)    
 [Day 24 Log Analyzer](/day24/README.md)  
 [Day 25 EX200 Practical Scripting Tasks](/day25/README.md)  
+## Module 2: Bash Network Automation
+[Day 26 Checking host availability](/day26/README.md)
+## Module 3: Bash Security Automation
+## Module 4: Wazuh
+## Module 5: Zabbix
+## Module 6: Proxmox
+## Module 7: Docker & Container Security
+## Module 8: Kubernetes Security / CKS
+
+
+
