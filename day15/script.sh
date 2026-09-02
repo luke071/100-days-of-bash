@@ -6,7 +6,10 @@ read x
 echo "Enter the second number:"
 read y
 
+# Command substitution $( ... ) – executes a command and returns its output
+# Arithmetic expansion $(( ... )) – performs mathematical calculations
 sum=$(( x + y ))
+
 mod=$(( x % y ))
 
 echo "Sum of numbers: $sum"

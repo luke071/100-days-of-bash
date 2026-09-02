@@ -1,5 +1,15 @@
 # Day 15 Arithmetic Operators
-Write a Bash script that takes two numbers from the user, calculates their sum and modulo, and then increments the first number by 1 and the second by 5. Finally, it compares the two numbers and displays which one is larger or whether they are equal.  
- [See script](main.sh)  
- [Arithmetic Operators](../assets/arithmetic-operators.md)  
- [← Main Page](../README.md)
+Write a Bash script that reads two numbers from the user, calculates their sum and modulo, increments the first number, increases the second number by 5, and compares the resulting values.
+
+Expected Output
+For example, if the user enters 5 and 3:
+```
+Sum of numbers: 8
+Modulo (x % y): 2
+After incrementing x (x++): 6
+After y += 5: 8
+The second number is larger
+``` 
+[Arithmetic Operations and Comparisons](script.sh)  
+[Arithmetic Operators](../assets/arithmetic-operators.md)  
+[← Main Page](../README.md)
