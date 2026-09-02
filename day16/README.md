@@ -1,4 +1,26 @@
 # Day 16 Case Statement
+
+The case statement in Bash is used to execute different commands depending on the value of a variable. It is useful when there are multiple possible choices.
+
+The basic syntax is:
+```
+case "$variable" in
+    pattern1)
+        commands
+        ;;
+    pattern2)
+        commands
+        ;;
+    *)
+        commands
+        ;;
+esac
+```
+Each option ends with ;;. The * pattern works as a default option when none of the other patterns match.
+
+[Example: case statement in Bash](script-1.sh) 
+
+# Task: User Creation from File
 Write a Bash script that automatically creates system users based on entries in a `users.txt` file.  
 
 The script should:  
@@ -16,10 +38,10 @@ for Debian – `adduser --disabled-password --gecos ''`.
 9. Display a usage message explaining the script's function if the operating system is not specified correctly.  
 
 Example content of `users.txt`:  
-
+```
 Andrew  
 John  
 Mark
- 
+```
 [See script](main.sh)    
 [← Main Page](../README.md)
