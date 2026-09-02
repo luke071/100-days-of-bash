@@ -1,20 +1,40 @@
 # Day 17 [ ] vs [[ ]]
+In Bash, both [ ] and [[ ]] can be used to test conditions.
 
-Write a script that prompts the user for a text string and a number, then evaluates the provided values ​​using conditional statements.
+- [ ] is the traditional test syntax used for basic file, string, and numeric comparisons. It is also supported by POSIX-compatible shells.
+- [[ ]] is a Bash-specific and safer syntax that provides additional features, such as pattern matching with * and logical operators like && and ||.
+- With [ ], string comparison commonly uses =, for example:
+```
+[ "$STR" = "ok" ]
+```
+- With [[ ]], == can be used for string comparison and pattern matching:
+```
+[[ "$STR" == o* ]]
+```
+- This checks whether the string starts with o.
+Multiple conditions can be combined inside [[ ]], for example:
+```
+[[ -f "$FILE" && -r "$FILE" ]]
+```
+For Bash scripts, [[ ]] is generally preferred for more complex conditions, while [ ] is useful for simple and portable tests.
 
-The script should:
+## Task
+Write a Bash script that demonstrates the differences between [ ] and [[ ]] by testing a file, comparing a string, using pattern matching, and combining conditions with &&.
 
-1. Prompt the user for text and store it in the variable `txt`.
-2. Prompt the user for a number and store it in the variable `num`.
-3. Check using the POSIX test (`[ ]`) whether the text is empty. If so, display an appropriate message.
-4. Use the Bash construct (`[[ ]]`) to check if the provided number is greater than 10. Display an appropriate message based on the result.
-5. Check if the text is not empty and the number is greater than 0. If both conditions are met, display a message.
-6. Check if the text is empty or the number is not greater than 0. If at least one condition is met, display a message.
-7. Check if the text is not empty and the number is not equal to 0. If both conditions are met, display a message.
+### Expected Output
+Assuming file.txt exists and is readable, and the script is run with ok:
+```
+[ ] : file exists
+[ ] : string is ok
 
-The task requires the use of logical operators `&&`, `||`, and `!`, as well as string and numeric comparisons in Bash.
+[[ ]] : file exists
+[[ ]] : string is ok
 
+[[ ]] : string starts with 'o'
 
- [See script](main.sh)  
- [Brackets Comparison](../assets/bash-brackets-comparison.md)  
- [← Main Page](../README.md)
+[[ ]] : file exists and is readable
+```
+
+[[ ] vs [[ ]]](script.sh)  
+[Brackets Comparison](../assets/bash-brackets-comparison.md)  
+[← Main Page](../README.md)
