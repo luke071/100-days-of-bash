@@ -29,3 +29,9 @@ the output should look similar to:
 [CLOSED] 3389
 ```
 [TCP port scanner](script.sh) 
+
+## Bonus - Nmap
+
+The script was extended with Nmap to provide more reliable and detailed port scanning than a basic Bash TCP connection test. Nmap allows the script to identify different port states, such as open, closed, and filtered, while Bash handles the automation and presentation of the results.
+
+[Bash + Nmap](script-2.sh)
