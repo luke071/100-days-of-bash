@@ -1,0 +1,6 @@
+2026-09-01 08:12:01 INFO user=alice action=login
+2026-09-01 08:13:44 ERROR user=bob action=login
+2026-09-01 08:15:02 INFO user=alice action=logout
+2026-09-01 08:17:31 ERROR user=alice action=payment
+2026-09-01 08:18:10 WARNING user=charlie action=login
+2026-09-01 08:20:55 ERROR user=bob action=payment

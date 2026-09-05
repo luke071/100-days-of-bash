@@ -1,10 +1,10 @@
 # Day 24 Log Analyzer
 
-Write a Bash script called log_analyzer.sh that analyzes a server log file.
+Create a Bash script named script.sh for analyzing a server log file.
 
-The script should accept the path to the log file as its first argument:
+The script must take the path to the log file as its first command-line argument.
 ```
-./log_analyzer.sh server.log
+./script.sh server.log
 ```
 ## Input file
 Example server.log:
@@ -70,23 +70,26 @@ login: 3
 Users must be displayed in alphabetical order.
 
 ## Error Handling
+
 ### No argument
 ```
-./log_analyzer.sh
+./script.sh
 ```
-Expected:
+Expected output:
 ```
-Usage: ./log_analyzer.sh <logfile>
+Usage: ./script.sh <logfile>
 ```
 ### File does not exist
 ```
-./log_analyzer.sh missing.log
+./script.sh missing.log
 ```
-Expected:
+Expected output:
 ```
 Error: file 'missing.log' does not exist
 ```
 The script should exit after detecting an error.
+
+[See script](script-1.sh)
 
 ## Bonus — Log Backup
 
@@ -104,8 +107,24 @@ an example backup name would be:
 ```
 server.log-2026-09-02_08-30-15.tar.gz
 ```
-The archive must contain the server.log file.  
+
+The archive must contain the server.log file.
+
 After creating the backup, verify that the archive contains the correct file.
 
-[See script](script.sh)  
+The script should also check whether the tar command was successful. The tar command returns exit code 0 when the backup is created successfully. If tar returns a non-zero exit code, the script should display an error message and exit.
+
+The backup can be created and checked using:
+
+```
+if ! tar -czf "$backup" "$file"; then
+    echo "Error: could not create backup"
+    exit 1
+fi
+```
+The tar command creates the .tar.gz archive. If it is successful, the script continues. If tar fails, the script displays an error message and exits.
+
+The ! reverses the result of the tar command, so the if block runs when tar fails.
+
+[See script](script-2.sh)  
 [← Main Page](../README.md)
