@@ -10,5 +10,5 @@ Script assumptions:
  - deletes the original file
  - shows the behavior of both links after deleting the original file
 
- [See script](main.sh)  
+ [See script](script.sh)  
  [← Main Page](../README.md)

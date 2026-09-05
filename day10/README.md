@@ -49,5 +49,5 @@ User: john
 ```
 The first argument represents the file name, and the second argument represents the user name.
 
-[See example](script.sh)  
+[Show solution](script.sh)  
  [← Main Page](../README.md)

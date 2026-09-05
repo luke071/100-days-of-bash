@@ -32,6 +32,6 @@ Next, write a script that uses the `grep` command to:
 15. Display lines from `users.txt` that end with ".com".  
 
 The task requires using various `grep` options—such as `-i`, `-v`, `-E`, `-n`, `-c`, `-w`, `-o`, and `-q`—as well as regular expressions and the anchors `^` and `$`.  
-[See script](main.sh)  
+[See script](script.sh)  
 [grep](../assets/grep-common-combinations.md)  
 [← Main Page](../README.md)

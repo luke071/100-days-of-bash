@@ -10,6 +10,6 @@ After incrementing x (x++): 6
 After y += 5: 8
 The second number is larger
 ``` 
-[Arithmetic Operations and Comparisons](script.sh)  
+[See script](script.sh)  
 [Arithmetic Operators](../assets/arithmetic-operators.md)  
 [← Main Page](../README.md)

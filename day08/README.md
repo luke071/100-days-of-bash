@@ -15,5 +15,5 @@ The function is executed by writing its name followed by the required arguments.
 ## Task
 
 Write a Bash script containing a function named `check_file` that checks whether a given file exists. If the file exists, the script should display the message "exists" along with the file's name.  
- [See script](scrip.sh)  
+ [See script](script.sh)  
  [← Main Page](../README.md)

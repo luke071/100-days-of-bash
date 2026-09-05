@@ -6,5 +6,5 @@ Write a Bash script that uses grep, sed, awk, cut, sort, and uniq to filter fail
 2 john
 1 peter
 ```
-[See script](main.sh)  
+[See script](script.sh)  
 [← Main Page](../README.md)

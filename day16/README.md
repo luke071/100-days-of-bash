@@ -43,5 +43,5 @@ Andrew
 John  
 Mark
 ```
-[See script](main.sh)    
+[See script](script-2.sh)    
 [← Main Page](../README.md)

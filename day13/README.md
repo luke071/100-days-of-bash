@@ -2,7 +2,7 @@
 
 Write a bash script that uses pipes and redirections in a practical way.
 
-[See script](main.sh)  
+[See script](script.sh)  
 
 
 ## Redirects

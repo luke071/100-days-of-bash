@@ -34,6 +34,6 @@ Next, write a script that uses `awk` commands to:
 15. Display the header "Header", then the content of `file.txt`, and finally "Footer".
 16. Use the `-v` variable to display lines from `file.txt` where the second column is greater than 10.
 
-[See script](main.sh)  
-[Arithmetic Operators](../assets/awk-common-combinations.md)  
+[See script](script.sh)  
+[AWK Combinations](../assets/awk-common-combinations.md)  
 [← Main Page](../README.md)

@@ -54,5 +54,5 @@ sshd is running
 Service status: inactive
 sshd is not running
 ```
-[See script](main.sh)  
+[See script](script.sh)  
 [← Main Page](../README.md)

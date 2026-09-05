@@ -24,5 +24,5 @@ Next, write a script that uses the `sed` command to:
 
 The task requires using basic `sed` syntax, the `s/pattern/replacement/` substitution, the `g` flag, the `-i` option, line deletion via `d`, line number ranges, and the `-n` option combined with the `p` command. The command using the `-i` option permanently alters the contents of `file.txt`.  
 
-[See script](main.sh)  
+[See script](script.sh)  
 [← Main Page](../README.md)

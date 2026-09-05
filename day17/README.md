@@ -35,6 +35,6 @@ Assuming file.txt exists and is readable, and the script is run with ok:
 [[ ]] : file exists and is readable
 ```
 
-[[ ] vs [[ ]]](script.sh)  
+[See script](script.sh)  
 [Brackets Comparison](../assets/bash-brackets-comparison.md)  
 [← Main Page](../README.md)

@@ -30,6 +30,6 @@ Next, write a script that uses the `cut` command to:
 
 The task requires using `cut` command options and parameters such as `-d`, `-f`, `-c`, `--complement`, and `-s`.
 
-[See script](main.sh)  
-[cut](../assets/cut-common-combinations.md)  
+[See script](script.sh)  
+[Cut](../assets/cut-common-combinations.md)  
 [← Main Page](../README.md)

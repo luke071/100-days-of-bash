@@ -14,5 +14,5 @@ Common options:
 -j    use bzip2 compression  
 -J    use xz compression  
 
-[See script](main.sh)  
+[See script](script.sh)  
 [← Main Page](../README.md)

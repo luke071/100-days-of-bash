@@ -67,5 +67,5 @@ Name: Luke
 File: /etc/passwd
 File exists.
 ```
-[See example ](task-2.sh)  
+[Show solution](script-2.sh)  
  [← Main Page](../README.md)
