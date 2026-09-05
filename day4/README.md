@@ -62,14 +62,14 @@ Finally, $? contains the exit status of the most recently executed command.
 
 The script should:  
 
-Check if an argument was provided. If not, display a usage message and exit with status 1.  
-Store the first argument in a variable.  
-Check if the specified path exists.  
-Determine whether the path is a regular file or a directory.  
-Check whether the path is readable, writable, and executable.  
-Display an appropriate message for each check.  
-If the path does not exist, display an error message and exit with status 2.  
-Display the exit status at the end of the script.  
+- Check if an argument was provided. If not, display a usage message and exit with status 1.  
+- Store the first argument in a variable.  
+- Check if the specified path exists.  
+- Determine whether the path is a regular file or a directory.  
+- Check whether the path is readable, writable, and executable.  
+- Display an appropriate message for each check.  
+- If the path does not exist, display an error message and exit with status 2.  
+- Display the exit status at the end of the script.  
 
 Example usage:  
 ```
@@ -84,5 +84,5 @@ Writable: YES
 Executable: NO  
 Exit status: 0  
 ```
-[See script](script.sh)  
+[Show solution](script.sh)  
 [← Main Page](../README.md)
