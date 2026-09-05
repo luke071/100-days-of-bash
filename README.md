@@ -37,7 +37,6 @@ The course takes you from the Bash scripting skills required at the EX200 exam l
 [Day 23 Backup](/day23/README.md)    
 [Day 24 Log Analyzer](/day24/README.md)  
 [Day 25 EX200 Practical Scripting Tasks](/day25/README.md)  
-[Day 26 Troubleshooting](/day25/README.md)  
 ## Module 2: Bash Network Automation
 [Day 26 Checking host availability](/day26/README.md)  
 [Day 27 TCP port scanner](/day27/README.md)  
