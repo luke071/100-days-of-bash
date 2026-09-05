@@ -69,4 +69,4 @@ chmod +x script.sh
 ## Troubleshooting
 [Troubleshooting](troubleshooting.md)
 
-[← Main Page](README.md)
+[← Main Page](../README.md)
