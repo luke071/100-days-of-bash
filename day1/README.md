@@ -64,5 +64,9 @@ chmod +x script.sh
 ```
 ./script.sh
 ```
-[Show solution](script.sh)  
-[← Main Page](../README.md)
+[Show solution](script.sh)
+
+## Troubleshooting
+[Troubleshooting](troubleshooting.md)
+
+[← Main Page](README.md)
