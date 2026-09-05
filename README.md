@@ -12,15 +12,15 @@ The course takes you from the Bash scripting skills required at the EX200 exam l
 - Log Analysis & Automation
 - Practical EX200-Level Bash Scripting 
 
-[Day 1 Basics of Text Formatting in Bash](/day1/README.md)  
-[Day 2 Colorful Data](/day2/README.md)  
-[Day 3 Guess the Dumber](/day3/README.md)  
-[Day 4 File Existence](/day4/README.md)  
-[Day 5 User ID Verification with While](/day5/README.md)  
-[Day 6 Searching for Configuration Files](/day6/README.md)  
-[Day 7 Find + -Exec](/day7/README.md)  
-[Day 8 Bash Functions](/day8/README.md)  
-[Day 9 Variables + Quoting](/day9/README.md)  
+[Day 1 Basics of Text Formatting in Bash](/day01/README.md)  
+[Day 2 Colorful Data](/day02/README.md)  
+[Day 3 Guess the Dumber](/day03/README.md)  
+[Day 4 File Existence](/day04/README.md)  
+[Day 5 User ID Verification with While](/day05/README.md)  
+[Day 6 Searching for Configuration Files](/day06/README.md)  
+[Day 7 Find + -Exec](/day07/README.md)  
+[Day 8 Bash Functions](/day08/README.md)  
+[Day 9 Variables + Quoting](/day09/README.md)  
 [Day 10 Arguments](/day10/README.md)  
 [Day 11 Command substitution + Exit Status](/day11/README.md)  
 [Day 12 Hard vs. Symbolic Links](/day12/README.md)  
@@ -37,6 +37,7 @@ The course takes you from the Bash scripting skills required at the EX200 exam l
 [Day 23 Backup](/day23/README.md)    
 [Day 24 Log Analyzer](/day24/README.md)  
 [Day 25 EX200 Practical Scripting Tasks](/day25/README.md)  
+[Day 26 Troubleshooting](/day25/README.md)  
 ## Module 2: Bash Network Automation
 [Day 26 Checking host availability](/day26/README.md)  
 [Day 27 TCP port scanner](/day27/README.md)  
