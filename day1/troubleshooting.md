@@ -1,5 +1,4 @@
 ## Troubleshooting
-# Bash Troubleshooting
 
 If your Bash script is not working as expected, go through the following steps.
 
@@ -25,6 +24,12 @@ head -n 1 script.sh
 ## 5. Does the script have execute permission?
 ```
 chmod +x script.sh
+```
+Example:
+```
+-rwxr-xr-x 1 user user 1234 Sep  5 11:49 script.sh
+   ^
+   x = execute permission
 ```
 ## 6. Is the syntax correct?
 ```
